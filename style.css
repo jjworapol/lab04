@@ -1,0 +1,96 @@
+/* mystyle.css */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Righteous|Titillium+Web|Ubuntu');
+
+
+
+
+h1{
+	font-size: 50px;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Righteous', cursive;
+	text-align: center;	color: rgb(74, 74, 138);
+			/*top R B L*/
+	margin: 5px 5px 5px 5px;
+}
+
+h2{
+	font-size: 60px;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	color: #ff3346;
+	margin-bottom: 10px;
+}
+h3{
+	font-size: 45px;
+	font-family: 'Titillium Web', sans-serif;
+		
+}
+p{
+	font-size: 18px;
+}
+.container{
+	text-align: center;
+	background-color: #c6ddf2;
+    border-radius: 20px;
+    
+    padding: 20px 20px 20px 20px;
+}
+.summary {
+	clear: both; 
+	padding : 100px 40px 100px 40px; 
+	width: 400px; 
+	float: left;
+    }
+.sidebar .wrapper {
+	font: italic 1.1em/2.2 georgia; 
+	text-align: center;
+	}
+.preamble,.participation,.requirements{
+	margin: 10px 0px 10px 500px;
+	background-color: #cc99ff;
+	border-radius: 20px;
+}
+
+.explanation,.benefits{
+	margin: 10px 0px 10px 500px;
+		background-color:   #ffffe0;
+		border-radius: 20px;
+}
+
+footer{
+	font-size: 20px;
+	background-color: blue;
+	border-radius: 100px;
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	background-color: white;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration:blink; 
+	color: #D4CDDC;
+	background-color: white;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	background-color: white;
+	}
+
+[role=banner] {			
+	background-color: 	#ccc7d1;
+}
+body{
+    background : url(https://www.seriouseats.com/images/2016/01/20160115-things-never-to-but-at-supermarket-.jpg);
+    height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
