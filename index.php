@@ -93,6 +93,9 @@ if(isset($_POST["submit"]))
       <label>Enter Name</label>
       <input type="text" name="name" placeholder="Enter Name" class="form-control" value="<?php echo $name; ?>" />
      </div>
+     <div class="form-group" align="center">
+      <input type="submit" name="submit" class="btn btn-info" value="Submit" />
+     </div>
       <div class="form-group" align="center-left">
       <!-- <input type="download" name="downloadCSVFile" class="btn btn-info" value="Download CSV File" /> -->
       <a href="contact_data.csv" download>
@@ -100,11 +103,6 @@ if(isset($_POST["submit"]))
             <input type="button" value="Download File" class = "btn btn-info">
         </p>
             </a>
-            <form action="upload.php" method="post" class = "btn btn-info">
-          <!-- <input type="hidden" name ='name' value=<?php$_POST['name']?> > -->
-          <input type="file" name="filename" id="filename"accept=".csv">
-          <input type="submit" value="Upload File" name="upload" class = "btn btn-info">
-        </form>
      </div>
      
 
@@ -112,7 +110,10 @@ if(isset($_POST["submit"]))
     
    </div>
     <div class = "form-group" align ="right ">
-        
+        <form action="upload.php" method="post">
+          <input type="file" name="filename" id="filename"accept=".csv">
+          <input type="submit" value="Upload File" name="upload" class = "btn btn-info">
+        </form>
     </div>
   </div>
  </body>

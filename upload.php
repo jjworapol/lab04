@@ -1,5 +1,4 @@
 <?php
-        $name = $_POST['name'];
       $product = array();
       $quantity = array();
       $price = array();
@@ -45,8 +44,7 @@
 </head>
 <body>
     <div class="jumbotron text-center">
-    <h1>Welcome  <?php echo  $name;    ?></h1>
-    <p>Resize this responsive page to see the effect!</p> 
+    <h1>Result here</h1>
     </div>
     <div class = "container">
         
